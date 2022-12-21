@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.container-modify {
+  width: 95vw;
+}
+
+.navbar {
+ background-color: #FFF!important;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+
+.nav-item a {
+  color: #000!important;
+  font-weight: 600!important;
+  transition: all 0.5s ease-out;
+}
+
+.nav-item a:hover {
+  color: #BDBDBD!important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.btn {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 0;
+  padding: 10px 20px;
+  border: 2px solid #000;
+}
+
+.btn:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+footer .container {
+  position: relative;
+}
+
+.to-top {
+  position: relative;
+  border-top: 4px solid #000;
+}
+
+.to-top a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  bottom: -30px;
+  right: 50%;
+  z-index: 1;
+  margin-right: -30px;
+  width: 60px;
+  height: 60px;
+  border: 4px solid #000;
+  border-radius: 50%;
+  background: #000;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  text-align: center;
+}
+
+.to-top a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 3px 0 0 -7px;
+  width: 12px;
+  height: 12px;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  -webkit-transform: translate(0, -50%) rotate(45deg);
+  -ms-transform: translate(0, -50%) rotate(45deg);
+  transform: translate(0, -50%) rotate(45deg);
+}
+
+.to-top a:hover {
+  background-color: #FFF;
+}
+
+.to-top a:hover::after {
+  border-color: #000;
+}
+
+.contact-section {
+  width: 55vw;
+}
+
+.links-section {
+  background-color: #484848;
+  padding: 60px 0;
+  position: relative;
+}
+
+.links-section h5 a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.links-section h5 a:hover {
+  color: #BDBDBD;
+}
+
+.links-section ul {
+  list-style: none;
+}
+
+.links-section li {
+  margin-bottom: 7px;
+}
+
+.links-section li a {
+  color: #FFF;
+}
+
+.links-section li a:hover {
+  text-decoration: none;
+}
+
+.copyright-section {
+  background-color: #3C3C3C;
+  color: #808687;
+  padding: 10px 0;
+}
+
+.company-info {
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+@media screen and (max-width: 726px) {
+  .contact-section {
+    width: 100%;
+  }  
+
+  .company-info {
+    margin-top: 30px;
+    position: static;
+    text-align: left;
+  }
+}
