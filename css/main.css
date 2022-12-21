@@ -133,6 +133,7 @@ footer .container {
 .links-section h5 a {
   color: #FFF;
   text-decoration: none;
+  transition: all 0.5s ease-out;
 }
 
 .links-section h5 a:hover {
