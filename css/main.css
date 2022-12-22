@@ -171,6 +171,11 @@ footer .container {
   text-align: right;
 }
 
+.content p {
+  letter-spacing: .2rem;
+}
+
+
 @media screen and (max-width: 726px) {
   .contact-section {
     width: 100%;
