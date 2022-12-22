@@ -1,3 +1,13 @@
+.contact-info {
+  background-color: #e8e8e8;
+  padding: 20px 0;
+}
+
+.contact-info span {
+  padding: 5px;
+  background-color: #FFF;
+}
+
 .table {
   font-size: 18px;
   border-color: #000!important;
@@ -5,12 +15,12 @@
 }
 
 .table th {
+  width: 30%;
   border-right: 1px solid #000!important;
   background-color: #000;
   color: #FFF;
   border-bottom: 1px solid #FFF;
   padding: 15px;
-  width: 30%;
 }
 
 .table td{
