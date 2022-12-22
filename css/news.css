@@ -1,0 +1,11 @@
+.news-item {
+  border-bottom: 1px solid #000;
+}
+
+.archive ul {
+  list-style: none;
+}
+
+.archive ul li a {
+  color: #000;
+}

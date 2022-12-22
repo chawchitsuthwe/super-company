@@ -55,38 +55,6 @@
   padding: 50px 40px;
 }
 
-.news-item {
-  text-decoration: none;
-  color: #000;
-}
-
-.news-item img{
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
-.news-item span {
-  display: block
-}
-
-.news-item .date {
-  font-weight: 600;
-}
-
-.news-item .title {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.news-item:hover {
-  color: #000;
-}
-
-.news-item:hover .title {
-  text-decoration: none;
-}
-
 @media screen and (max-width: 726px) {
   .container-modify {
     width: 100%;
