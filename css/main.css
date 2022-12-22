@@ -175,8 +175,61 @@ footer .container {
   letter-spacing: .2rem;
 }
 
+.banner {
+  width: 70vw;
+}
+
+.banner img {
+  height: 50vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-over {
+  position: absolute;
+  top: 15%;
+  left: 100px;
+  z-index: 1;
+}
+
+.text-over span {
+  font-size: 30px;
+}
+
+.text-over h1 {
+  font-size: 80px;
+  font-weight: 600;
+  background-color: #FFF;
+  padding: 10px;
+}
+
 
 @media screen and (max-width: 726px) {
+  .container-modify {
+    width: 100%;
+  }
+
+  .banner {
+    width: 100%;
+  }
+  
+  .text-over {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .text-over span {
+    font-size: 20px;
+  }
+  
+  .text-over h1 {
+    font-size: 50px;
+  }
+
   .contact-section {
     width: 100%;
   }  
