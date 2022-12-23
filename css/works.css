@@ -1,0 +1,80 @@
+.work-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 270px;
+  background-position: center;
+}
+
+.work-item-1 {
+  background-image: url("../img/bg-1.jpg");
+}
+
+.work-item-2 {
+  background-image: url("../img/bg-2.jpg");
+}
+
+.work-item-3 {
+  background-image: url("../img/bg-3.jpg");
+}
+
+.work-item-4 {
+  background-image: url("../img/bg-4.jpeg");
+}
+
+.work-item-5 {
+  background-image: url("../img/bg-5.jpeg");
+}
+
+.work-item-6 {
+  background-image: url("../img/bg-6.jpeg");
+}
+
+.work-item::before{
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+}
+
+.work-item:hover::before {
+  display: block;
+}
+
+.cover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  border: 5px solid rgba(255, 255, 255, 0.95);
+  padding: 35px 0;
+  transition: all 0.5s;
+  z-index: 10;
+}
+
+.cover-text span {
+  display: block;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 40px;
+  text-align: center;
+}
+
+.work-item:hover .cover-text {
+  background: transparent;
+}
+
+.work-item:hover .cover-text span {
+  color: #FFF;
+}
